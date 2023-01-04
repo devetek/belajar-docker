@@ -66,7 +66,7 @@ Untuk memulai menjalankan repository ini, pastikan kamu sudah melakukan installa
 
 Selanjutnya kita akan mulai dengan sebuah command simple untuk mencetak `Hello World!` di terminal. Jalankan perintah berikut `make run`. Di dalam perintah tersebut akan melakukan:
 
-1. docker build .
+1. docker build -t devetek/belajar-docker:latest .
 
 2. docker run -it devetek/belajar-docker:latest bash -c "echo 'Hello World!'"
 
